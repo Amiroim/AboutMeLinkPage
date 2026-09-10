@@ -1,0 +1,7 @@
+.AppMain {
+  height: 100dvh;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #171717;
+  color: #fff;
+}

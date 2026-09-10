@@ -1,0 +1,76 @@
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 33px;
+}
+
+.links * {
+  font-family: "Jost", sans-serif;
+}
+
+.socialMediaLogo {
+  width: 22px;
+}
+
+.link {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding: 5px;
+  border: #0000001e solid 3px;
+}
+
+a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.addres{
+  color: #ffffff3f;
+}
+
+.platform {
+  justify-content: flex-start;
+  display: flex;
+  width: 150px;
+  gap: 10px;
+}
+
+.link:hover {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  color: white;
+  transition: 500ms;
+}
+
+.link:hover .addres{
+  color: #fff;
+  transition: 500ms;
+}
+
+.ig:hover {
+  background: linear-gradient(
+    45deg,
+    #f5852968,
+    #dd2a7b52,
+    #8234af57,
+    #515cd43c
+  );
+}
+
+.tg:hover {
+  background: rgba(0, 136, 204, 0.5);
+}
+.gh:hover {
+  background: rgba(13, 17, 23, 0.5);
+}
+
+@media only screen and (min-width: 600px) {
+  .link {
+    align-self: center;
+    gap: 20vw;
+  }
+}

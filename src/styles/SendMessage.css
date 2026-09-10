@@ -1,0 +1,87 @@
+ul {
+  margin: 33px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.SendMessage * {
+  font-family: "Agdasima", sans-serif;
+}
+
+.SendMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100dvw;
+  gap: 50px;
+  color: #fff;
+}
+
+.SendMessageMain {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+
+.SendMessageMain input,
+.SendMessageMain button {
+  width: 80dvw;
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+  border: #0000001e solid 3px;
+}
+
+.back {
+  width: 30px;
+}
+
+input {
+  color: #fff;
+  padding: 20px;
+  background-color: #0000001e;
+}
+
+#btn:hover {
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  transition: 500ms;
+}
+
+input:focus {
+  color: #d4edda;
+  outline: none;
+}
+
+#btn {
+  cursor: pointer;
+  background: #101010;
+  color: #fff;
+  place-content: center;
+}
+
+.notification {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 12px;
+  border-radius: 10px;
+  margin: 10px auto;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (min-width: 600px) {
+  .SendMessageMain input,
+  .SendMessageMain button {
+    width: 50dvw;
+    height: 30px;
+  }
+}
